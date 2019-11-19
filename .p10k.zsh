@@ -33,6 +33,7 @@
   # The list of segments shown on the left. Fill it with the most important segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
       os_icon                 # os identifier
+      context                 # user@host
       dir                     # current directory
       vcs                     # git status
       # prompt_char           # prompt symbol
@@ -64,7 +65,7 @@
       aws                     # aws profile (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
       # aws_eb_env            # aws elastic beanstalk environment (https://aws.amazon.com/elasticbeanstalk/)
       azure                 # azure account name (https://docs.microsoft.com/en-us/cli/azure)
-      context                 # user@hostname
+#      context                 # user@hostname
       nordvpn                 # nordvpn connection status, linux only (https://nordvpn.com/)
       ranger                  # ranger shell (https://github.com/ranger/ranger)
       vi_mode                 # vi mode (you don't need this if you've enabled prompt_char)
